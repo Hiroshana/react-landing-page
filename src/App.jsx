@@ -3,6 +3,7 @@ import CompanyLogo from './components/CompanyLogo'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import PurposeSection from './components/PurposeSection'
+import FeatureSection from './components/FeatureSection'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <CompanyLogo />
         <PurposeSection />
+        <FeatureSection />
       </div>
 
     </main>
