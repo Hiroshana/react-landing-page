@@ -14,7 +14,7 @@ const ScheduleSection = () => {
 
                     {/**Right section */}
                     <div className='w-full md:w-1/2 '>
-                        <p className='text-lime-700 text-2xl mb-2'>SCHEDULE</p>
+                        <p className='text-lime-700 text-2xl mb-2 font-semibold'>SCHEDULE</p>
                         <h2 className='text-3xl md:text-4xl font-bold text-gray-500 mb-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
                         <p className='text-gray-600 mb-6'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid cum, excepturi ipsa ut eaque omnis eos nobis suscipit natus ad optio iste fuga earum quibusdam eligendi reprehenderit? Totam, illum.</p>
                         <a className="text-lime-600 font-semibold text-xl flex items-center gap-2 hover:gap-4 transition-all" href="#">Explore scheduling features <FaLongArrowAltRight className='size-6' /></a>
