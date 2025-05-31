@@ -35,7 +35,7 @@ const ServiceSection = () => {
     return (
         <section id="service" className="w-full bg-gray-white">
             <div className="container mx-auto py-20 px-6 lg:px-8">
-                <div class="flex flex-col md:flex-row items-center justify-between gap-12 lg:gap-24">
+                <div className="flex flex-col md:flex-row items-center justify-between gap-12 lg:gap-24">
 
                     {/**Left side */}
                     <div className="w-full md:w-3/5">
