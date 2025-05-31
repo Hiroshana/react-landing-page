@@ -95,7 +95,7 @@ const TestimonialSection = () => {
                                         </div>
                                         <div className='flex flex-row justify-center'>
                                             {[...Array(5)].map((_, starIndex) => (
-                                                <span className=''><BsFillStarFill className='text-amber-300' /></span>
+                                                <span key={starIndex}><BsFillStarFill className='text-amber-300' /></span>
                                             ))}
                                         </div>
                                         <h3 className='text-xl font-semibold mb-3 text-gray-600'>{testimonial.name}</h3>
