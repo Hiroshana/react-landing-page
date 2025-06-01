@@ -14,9 +14,7 @@ const Navbar = () => {
     return (
         <nav className="fixed top-0 left-0 right-0 gb-white/90 backdrop-blur-sm z-50 border-b border-gray-100">
             <div className="w-full container mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 md:h-20 h-16">
-                {/**
-         * Logo
-         */}
+                {/** * Logo */}
                 <div className="flex items-center gap-1 cursor-pointer">
                     <div className="w-10 h-10 bg-lime-500 rounded-full opacity-75 hover:opacity-100 transition-opacity flex justify-around">
                         <div className="my-auto from-neutral-500 text-2xl">S</div>
@@ -26,9 +24,7 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                {/**
-         * Desktop nav bar
-         */}
+                {/*** Desktop nav bar */}
                 <div className="hidden md:flex items-center gap-10">
                     {navLinks.map((link, index) => (
                         <a

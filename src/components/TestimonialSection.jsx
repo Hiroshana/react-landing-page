@@ -51,7 +51,7 @@ const TestimonialSection = () => {
     ];
 
     return (
-        <section id="testimonial" className='w-full bg-gray-50'>
+        <section id="testimonials" className='w-full bg-gray-50'>
             <div className='max-w-7xl mx-auto py-20 px-6'>
                 <div className='mb-7 text-center'>
                     <h2 className='text-3xl md:text-4xl font-bold text-gray-500 mb-2'>What our happy client says</h2>
